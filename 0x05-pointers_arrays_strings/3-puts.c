@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - print a string
+ * _puts - prints a string
  * @str: A pointer to an int that will be changed
  *
  * Return: void which means our answer is correct
@@ -15,7 +15,7 @@ void _puts(char *str)
 
 	for (m = 0; c[m]; m++)
 	{
-		_puts(c[m]);
+		_putchar (c[m]);
 	}
 	_putchar('\n');
 }
