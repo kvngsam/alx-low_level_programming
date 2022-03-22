@@ -16,7 +16,7 @@ void print_rev(char *str)
 	{
 		i++;
 	}
-	total-caracteres = i - 1;
+	total_caracteres = i - 1;
 
 	for (c = 0; C <= total_caracteres; c++)
 	{
